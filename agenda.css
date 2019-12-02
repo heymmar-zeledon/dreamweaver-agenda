@@ -1,0 +1,29 @@
+.tabla1{
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	text-align:center;
+}
+.table2{
+	width: 350px;
+	height: 300px;
+	margin: 0 auto;
+}
+.cabecera{
+	background-image: url(header.gif);
+	font-family: Arial;
+	font-size: 12;
+	color:  white;
+	text-align: center;
+	font-weight: 12%;
+}
+.elemento{
+	background-image: url(blue.gif);
+	font-family: Arial;
+	text-align: center;
+	font-size: 12;
+	color: black; 
+}
+.iconos{
+    text-align:center;
+}

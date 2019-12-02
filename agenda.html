@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agenda</title><meta charset="utf-8">
+</head><link rel="stylesheet" type="text/css" href="agenda.css">
+<body  onload ="iniciar(formu);">
+	<script type="text/javascript" src="funciones.js"></script>
+	<table border="1px;" class="table2">
+		<tr class="cabecera">
+			<td style="background-image: url(header.gif);" >
+				<p>Entrada de Alumnos</p>
+				<tr class="elemento">
+					<td>
+						<form id="formu">	            
+		       <form name="formu">
+					Nombre: &nbsp;&nbsp;<input type="text" name="nombre"><br><br>
+				Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="email"><br><br>
+				Telefono: &nbsp;<input type="text" name="telefono"><br><br>
+  				Notas: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="notas"><br><br>                                          
+			   <table class="opciones" cellspacing="20px" align="center">
+				<tr>
+				<td class="iconos"><img src="Nuevo.gif" onClick="nuevo(formu)"></td>
+				<td class="iconos"><img src="Guardar.gif" onClick="guardar(formu)"></td>
+				<td class="iconos"><img src="Borrar.gif" onClick="borrar(formu)"></td>
+				<td class="iconos"><img src="Buscar.gif" onClick="buscar(formu)"></td>
+				</tr>
+                <br>
+				<tr>
+				<td class="iconos"><img src="Primero.gif" onClick="primero(formu)"></td>
+				<td class="iconos"><img src="Anterior.gif" onClick="anterior(formu)"></td>
+				<td class="iconos"><img src="Siguiente.gif" onClick="siguiente(formu)"></td>
+				<td class="iconos"><img src="Ultimo.gif" onClick="ultimo(formu)"></td>
+				</tr>
+	        </table>
+	    </form>
+							
+							
+						
+						</form>
+						
+					</td>
+				</tr>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>
